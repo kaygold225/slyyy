@@ -95,7 +95,6 @@ header{
 .btn:hover{
     background: #3492fd;
 }
-
 .homeimg{
     height: 40px;
     width: 40px;
@@ -121,48 +120,25 @@ header{
     text-align: center;
     justify-content: center;
  }
+ .about{
+    background: #fbfbfb;
+    border-radius: 2rem;
+    padding: 2rem 2rem;
+ }
 
+ .about-text p, h2{
+    text-align: center;
+ }
 
-
- /* ABOUT */
-
-.about{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(18rem,auto));
-    gap: 2rem;
-}
-
-.about-text span{
-    font-size: 1rem;
-    text-transform: uppercase;
-    font-weight: 500;
-    color: var(--main-color);
-}
-.about-text h2{
+ .about-text h2{
     font-size: 1.7rem;
 }
 .about-text p{
     font-size: 0.938rem;
     margin: 1rem 0 1rem;
 }
-.about-img img{
-    height: 80%;
-    width: 100%;
-    
-}
 
-.hr{
-    width:90px;
-     height: 4px;
-      border-radius: 10px;
-       margin: auto;
-        background-color: #2288ff;
-         margin-top:0.5rem ;
-          outline: none;
-           border: none;
-}
-
-
+/* bus reg */
 .properties{
     background: #fbfbfb;
     border-radius: 2rem;
@@ -193,11 +169,10 @@ header{
     object-position: center;
 }
 .properties-container .box .content .text h3{
-    font-weight: 500;
+    font-weight: 400;
 }
 
-
-/* Footer */
+ /* Footer */
 .footer{
     background: var(--main-color);
     color: var(--bg-color);
@@ -263,8 +238,7 @@ font-weight: 400;
 
 
 
-
-/* RESPONSIVENESS */
+ /* RESPONSIVENESS */
 @media (max-width:1080px){
     .container{
         margin-left: 1rem;
@@ -275,6 +249,7 @@ font-weight: 400;
     section{
         padding: 4rem 0 3rem;
     }
+    
     .head{
         display: flex;
         justify-content: center;
@@ -300,6 +275,7 @@ font-weight: 400;
     .nav{
         padding: 10px 0;
     }
+    
     .hr{
         width:22%;
          height: 4px;}
@@ -364,7 +340,7 @@ font-weight: 400;
 @media (max-width:638px){
     .about-text p{
         text-align: center;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .about-text h1{
         text-align: center;
@@ -388,7 +364,7 @@ font-weight: 400;
         font-size: 1.2rem;
     }
     .about-text P{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         line-height: 1.5;
     }
     .properties-container{
